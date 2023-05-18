@@ -15,8 +15,8 @@ export default defineConfig({
   integrations: [
     AstroPWA({
       mode: 'development',
-      base: '/rouse-greek-boy-pwa',
-      scope: '/rouse-greek-boy-pwa',
+      base: '/rouse-greek-boy-pwa/',
+      scope: '/rouse-greek-boy-pwa/',
       includeAssets: ['favicon.svg'],
       registerType: 'autoUpdate',
       manifest: {
