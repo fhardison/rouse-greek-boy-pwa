@@ -81,7 +81,7 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
     "url": "astro/_slug_.a2007327.css",
     "revision": null
   }, {
-    "url": "astro/hoisted.c7f6add3.js",
+    "url": "astro/hoisted.60dba1fd.js",
     "revision": null
   }, {
     "url": "astro/index.3b46af41.css",
@@ -97,13 +97,13 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
     "revision": "8c13f40658976ea1dfb8ba37a8be0e8d"
   }, {
     "url": "/rouse-greek-boy-pwa/",
-    "revision": "f2cf2dc2aca20d305c46ca4b0f327fe6"
+    "revision": "8d94b90f0b24740eca3370322f735f0a"
   }, {
     "url": "registerSW.js",
-    "revision": "8aa7118324cae3660deca891768312cc"
+    "revision": "875b58700297f8f71df54a9efb030d9c"
   }, {
     "url": "rouse_corrected_text",
-    "revision": "4f41a968207eb97b74022b81115d4b95"
+    "revision": "1d104c33321d633c614183013fc8d74c"
   }, {
     "url": "text/01-on-the-incarnation",
     "revision": "827b9a912e5f2a4585ab200116ea97ae"
@@ -118,7 +118,7 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
     "revision": "8c13f40658976ea1dfb8ba37a8be0e8d"
   }, {
     "url": "manifest.webmanifest",
-    "revision": "98df69c56b031b338d1a3f50714e7474"
+    "revision": "d37e07ea991a194ac9ae374280e28113"
   }], {});
   workbox.cleanupOutdatedCaches();
   workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("/404")));
