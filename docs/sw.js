@@ -93,11 +93,20 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
     "url": "default.css",
     "revision": "dc717548eed6406483fcb4c1055ddc3a"
   }, {
+    "url": "drawing.svg",
+    "revision": "1447a5f19c1524daddc774789e4fb2ec"
+  }, {
     "url": "favicon.svg",
     "revision": "8c13f40658976ea1dfb8ba37a8be0e8d"
   }, {
     "url": "/rouse-greek-boy-pwa/",
     "revision": "8d94b90f0b24740eca3370322f735f0a"
+  }, {
+    "url": "pwa-192-192.png",
+    "revision": "50e920258500ecf9e66fcf220ba818f1"
+  }, {
+    "url": "pwa-512-512.png",
+    "revision": "8edcdbd527eb7806b6ea88e710f912c5"
   }, {
     "url": "registerSW.js",
     "revision": "875b58700297f8f71df54a9efb030d9c"
