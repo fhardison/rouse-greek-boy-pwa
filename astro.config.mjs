@@ -6,6 +6,10 @@ export default defineConfig({
 	site: "https://amindforlanguage.com/",
 	base:"/rouse-greek-boy-pwa",
 	outDir: 'docs',
+	output: "static",
+	build: {
+		assets: 'astro'
+	},
   vite: {
     logLevel: 'info',
     define: {
