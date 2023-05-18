@@ -1,0 +1,108 @@
+---
+import { getCollection } from 'astro:content';
+// 1. Generate a new path for every collection entry
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('text');
+  return blogEntries.map(entry => ({
+    params: { slug: entry.slug }, props: { entry },
+  }));
+}
+// 2. When it's time to render, you can get the entry directly from the prop
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="Content-Type" 
+      content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{entry.data.title}</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alpheios-components@latest/dist/style/style-components.min.css"/>
+		<link rel="stylesheet" href="/text-items.css"/>
+	</head>
+	<body>
+<div class="header">
+<p><a href="/text">TOC</a></p>
+</div>
+<div class="alpheios-enabled content" lang="grc">
+<h1>{entry.data.title}</h1>
+<Content />
+</div>
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+    import ("https://cdn.jsdelivr.net/npm/alpheios-embedded@latest/dist/alpheios-embedded.min.js").then(embedLib => {
+      window.AlpheiosEmbed.importDependencies({
+        mode: 'cdn'
+      }).then(Embedded => {
+        new Embedded({
+          clientId: 'astro'
+        }).activate();
+      }).catch(e => {
+        console.error(`Import of Alpheios embedded library dependencies failed: ${e}`)
+      })
+    }).catch(e => {
+      console.error(`Import of Alpheios Embedded library failed: ${e}`)
+    })
+  });
+</script>
+<style >
+	:root {
+		--accent: 124, 58, 237;
+		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
+	}
+	html {
+		font-family: system-ui, sans-serif;
+		background-color: #F6F6F6;
+	}
+	.content {
+		margin-left:auto;
+		margin-right:auto;
+		padding-left:auto;
+		padding-right:auto;
+		width:50%;
+	}
+	.header {
+		display: flex;
+		align-items; center;
+		justify-content: center;
+	}
+	.header > div {margin-left:1em; margin-right:1em;}
+	.controls {
+		background-color: rgb(107, 0, 0);
+		color:white;
+	}
+	.controls {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right:auto;
+		margin-left:auto;
+		width:50%;
+		grid-template-columns: 25% 25% 25%;
+	}
+	.controls > a, button {
+		display: inline-block;	
+	}
+
+	.audiobtn {
+	}
+	.navprev {
+	color: white;
+	}
+	.navnext{
+	color: white;
+	}
+	}
+	code {
+		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+			Bitstream Vera Sans Mono, Courier New, monospace;
+	}
+</style>
+
+</body>
+</html>

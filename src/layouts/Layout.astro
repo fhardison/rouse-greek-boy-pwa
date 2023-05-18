@@ -1,0 +1,60 @@
+---
+import { pwaInfo } from 'virtual:pwa-info';
+
+export interface Props {
+	title: string;
+}
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alpheios-components@latest/dist/style/style-components.min.css"/>
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="stylesheet" href="/rouse-greek-boy-pwa/default.css">
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body class="default">
+		<div class="container alpheios-enabled" lang="lat">
+		<slot />
+		</div>
+	    { pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} /> }
+		<script src="/src/pwa.ts"></script>
+		<script type="text/javascript">
+		  document.addEventListener("DOMContentLoaded", function(event) {
+		    import ("https://cdn.jsdelivr.net/npm/alpheios-embedded@latest/dist/alpheios-embedded.min.js").then(embedLib => {
+		      window.AlpheiosEmbed.importDependencies({
+			mode: 'cdn'
+		      }).then(Embedded => {
+			new Embedded({
+			  clientId: 'rouse-pwa'
+			}).activate();
+		      }).catch(e => {
+			console.error(`Import of Alpheios embedded library dependencies failed: ${e}`)
+		      })
+		    }).catch(e => {
+		      console.error(`Import of Alpheios Embedded library failed: ${e}`)
+		    })
+		  });
+		</script>
+	</body>
+	
+</html>
+<style is:global>
+	:root {
+		--accent: 124, 58, 237;
+		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
+	}
+	html {
+		font-family: system-ui, sans-serif;
+		background-color: #F6F6F6;
+	}
+	code {
+		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+			Bitstream Vera Sans Mono, Courier New, monospace;
+	}
+</style>
