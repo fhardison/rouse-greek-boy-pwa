@@ -78,9 +78,6 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
-    "url": "astro/_slug_.a2007327.css",
-    "revision": null
-  }, {
     "url": "astro/hoisted.60dba1fd.js",
     "revision": null
   }, {
@@ -113,15 +110,6 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
   }, {
     "url": "rouse_corrected_text",
     "revision": "1d104c33321d633c614183013fc8d74c"
-  }, {
-    "url": "text/01-on-the-incarnation",
-    "revision": "827b9a912e5f2a4585ab200116ea97ae"
-  }, {
-    "url": "text/02-on-the-incarnation",
-    "revision": "8b82eb589a7aedbd5d50f6da943c18f4"
-  }, {
-    "url": "text",
-    "revision": "5f658a3ee1fd3e1b91fb18e1562e62be"
   }, {
     "url": "favicon.svg",
     "revision": "8c13f40658976ea1dfb8ba37a8be0e8d"
