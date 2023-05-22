@@ -19,7 +19,7 @@ title: "A Greek Boy at Home"
 <div class="author-title">HEADMASTER OF THE PERSE GRAMMAR SCHOOL, CAMBRIDGE</div>
 
 <div class="date">**1909**</div>
-<div class="jumpto"><a href="#ιι.-οστισ-ειμι-εγω">[Jump to Greek Text]</a></div>
+<div class="jumpto"><a href="/rouse-greek-boy-pwa/rouse_corrected_text/#greek-start">[Jump to Greek Text]</a></div>
 </div>
 
 # **PREFACE**
@@ -75,6 +75,8 @@ These suggestions and cautions are all drawn from the experience of my friend Mr
 # **Ι. PRELIMINARY**
 
 READ pp. 1-4 of Rouse's *First Greek Course*, and practise the alphabet as on p. 4. The grammar for ch. II is found on pp. 4-6, with the pronouns p. 13 and εἰμί p. 10. For other exercises see the corresponding number in the *First Greek Course*. Those with Arabic numerals assume a knowledge of the whole grammar.
+
+<div id="greek-start"></div>
 
 # **ΙΙ. ΟΣΤΙΣ ΕΙΜΙ ΕΓΩ**
 

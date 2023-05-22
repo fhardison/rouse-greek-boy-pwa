@@ -16,17 +16,35 @@ const { title } = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="stylesheet" href="/rouse-greek-boy-pwa/default.css">
 		<link rel="manifest" href="/rouse-greek-boy-pwa/manifest.webmanifest" />
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
 	<body class="default">
-		<div class="container alpheios-enabled" lang="lat">
+		<div class="container alpheios-enabled" lang="grc">
 		<slot />
 		</div>
 	    { pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} /> }
 		<script src="/src/pwa.ts"></script>
 		<script type="text/javascript">
-		  document.addEventListener("DOMContentLoaded", function(event) {
+		 document.addEventListener("DOMContentLoaded", function(event) {
+      import ("/rouse-greek-boy-pwa/alpheios-embedded.min.js").then(embedLib => {
+        window.AlpheiosEmbed.importDependencies({
+          mode: 'custom',
+          libs: { components: "/rouse-greek-boy-pwa/alpheios-components.min.js" }
+        }).then(Embedded => {
+          new Embedded({clientId: 'rouse-pwa'}).activate();
+        }).catch(e => {
+          console.error(`Import of Alpheios embedded library dependencies failed: ${e}`)
+        })
+
+      }).catch(e => {
+        console.error(`Import of Alpheios Embedded library failed: ${e}`)
+      })
+    });
+		/*  document.addEventListener("DOMContentLoaded", function(event) {
 		    import ("https://cdn.jsdelivr.net/npm/alpheios-embedded@latest/dist/alpheios-embedded.min.js").then(embedLib => {
 		      window.AlpheiosEmbed.importDependencies({
 			mode: 'cdn'
@@ -40,7 +58,7 @@ const { title } = Astro.props;
 		    }).catch(e => {
 		      console.error(`Import of Alpheios Embedded library failed: ${e}`)
 		    })
-		  });
+		  }); */
 		</script>
 	</body>
 	
