@@ -79,7 +79,7 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
    */
   workbox.precacheAndRoute([{
     "url": "1k-interlinear",
-    "revision": "07830683f90a525ea5b734119449daba"
+    "revision": "0bb1b234fea278ecf00ea41430ac0595"
   }, {
     "url": "astro/1k-interlinear.3b46af41.css",
     "revision": null
