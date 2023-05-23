@@ -78,10 +78,13 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
-    "url": "astro/hoisted.60dba1fd.js",
+    "url": "1k-interlinear",
+    "revision": "07830683f90a525ea5b734119449daba"
+  }, {
+    "url": "astro/1k-interlinear.3b46af41.css",
     "revision": null
   }, {
-    "url": "astro/incarnation-interlinear.3b46af41.css",
+    "url": "astro/hoisted.60dba1fd.js",
     "revision": null
   }, {
     "url": "astro/workbox-window.prod.es5.dc90f814.js",
@@ -96,8 +99,11 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
     "url": "favicon.svg",
     "revision": "8c13f40658976ea1dfb8ba37a8be0e8d"
   }, {
+    "url": "incarnation-interlinear",
+    "revision": "312e6420c78bbbfe6769a2dfc1b9bc49"
+  }, {
     "url": "/rouse-greek-boy-pwa/",
-    "revision": "28fdb95bdcf267fa8927f0495155cf2d"
+    "revision": "4d05306120fc55d32c388ba158bed953"
   }, {
     "url": "pwa-192-192.png",
     "revision": "50e920258500ecf9e66fcf220ba818f1"
@@ -109,7 +115,7 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
     "revision": "875b58700297f8f71df54a9efb030d9c"
   }, {
     "url": "rouse_corrected_text",
-    "revision": "94bfe44fbebafd317560907a6781591a"
+    "revision": "58770d26fefabd1ea9966584908166c2"
   }, {
     "url": "favicon.svg",
     "revision": "8c13f40658976ea1dfb8ba37a8be0e8d"
