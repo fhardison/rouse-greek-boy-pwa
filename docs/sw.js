@@ -81,6 +81,9 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
     "url": "1k-interlinear",
     "revision": "0bb1b234fea278ecf00ea41430ac0595"
   }, {
+    "url": "about",
+    "revision": "4ec2426574cbd64fbe027c7b218dcc04"
+  }, {
     "url": "astro/1k-interlinear.3b46af41.css",
     "revision": null
   }, {
@@ -103,7 +106,13 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
     "revision": "312e6420c78bbbfe6769a2dfc1b9bc49"
   }, {
     "url": "/rouse-greek-boy-pwa/",
-    "revision": "4d05306120fc55d32c388ba158bed953"
+    "revision": "3b87f9e783792944d085504c0be274c7"
+  }, {
+    "url": "lgpsi-001",
+    "revision": "7bd01889f7eda5e2f7979dd5a5a803ef"
+  }, {
+    "url": "lgpsi-002",
+    "revision": "e05582a20cf21e2298359814d50feea5"
   }, {
     "url": "pwa-192-192.png",
     "revision": "50e920258500ecf9e66fcf220ba818f1"
