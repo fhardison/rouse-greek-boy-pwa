@@ -93,6 +93,9 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
     "url": "astro/workbox-window.prod.es5.dc90f814.js",
     "revision": null
   }, {
+    "url": "boy-temple",
+    "revision": "5052e930bbdc97acfa6d5063c3b569c6"
+  }, {
     "url": "default.css",
     "revision": "8180bdd118a9e9b5e75a009dd152b3cc"
   }, {
@@ -106,7 +109,7 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
     "revision": "312e6420c78bbbfe6769a2dfc1b9bc49"
   }, {
     "url": "/rouse-greek-boy-pwa/",
-    "revision": "3b87f9e783792944d085504c0be274c7"
+    "revision": "3d0d459ee1695da73f1c54ff6548a939"
   }, {
     "url": "lgpsi-001",
     "revision": "7bd01889f7eda5e2f7979dd5a5a803ef"
