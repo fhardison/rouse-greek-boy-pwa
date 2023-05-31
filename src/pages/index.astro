@@ -1,9 +1,27 @@
 ---
 title: "Text"
 import Layout from '../layouts/Layout.astro';
+
+function compare(a, b) {
+if (a.frontmatter.title < b.frontmatter.title) {
+	return -1
+}
+if (a.frontmatter.title > b.frontmatter.title) {
+	return 1
+}
+return 0
+
+}
+const posts = await Astro.glob('./*.md')
 ---
 
 <Layout title="Greek texts PWA">
+<ul>
+{posts.sort(compare).map((post) => (
+<li><a href={post.url}>{post.frontmatter.title}</a></li>
+))}
+</ul>
+<!--
 <ul>
 <li><a href="rouse_corrected_text/">A Greek Boy at Home</a></li>
 <li><a href="/rouse-greek-boy-pwa/incarnation-interlinear/">On the Incarnation (Interlinear)</a></li>
@@ -13,5 +31,5 @@ import Layout from '../layouts/Layout.astro';
 <li><a href="/rouse-greek-boy-pwa/boy-temple/">Simplified retelling of Luke 2:41-51</a></li>
 <li><a href="/rouse-greekboy-pwa/about/">About, source, and license info</a></li>
 </ul>
-
+-->
 </Layout>

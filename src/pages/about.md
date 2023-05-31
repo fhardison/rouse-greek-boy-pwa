@@ -1,6 +1,6 @@
 ---
 layout: "../layouts/Layout.astro"
-title: "About"
+title: "About, source, and licensing information"
 ---
 
 # Source and license information
