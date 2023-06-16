@@ -121,7 +121,7 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
     "revision": "21a518d202ccbcdb905776090afc8d1d"
   }, {
     "url": "lysias-24",
-    "revision": "e4187ae3798e9dc4ea13ce5fa7655342"
+    "revision": "60cd877a39b664b5e2ce8b485bd7c79c"
   }, {
     "url": "pwa-192-192.png",
     "revision": "50e920258500ecf9e66fcf220ba818f1"
