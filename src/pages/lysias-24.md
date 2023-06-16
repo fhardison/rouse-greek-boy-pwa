@@ -1,6 +1,6 @@
 ---
 layout: '../layouts/Layout.astro'
-Title: "Lysias 24 - For the disabled man"
+title: "Lysias 24 - For the disabled man"
 ---
 
 # Πρὸς τὴν εἰσαγγελίαν περὶ τοῦ μὴ δίδοσθαι τῷ ἀδυνάτῳ ἀργύριον

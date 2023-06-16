@@ -109,7 +109,7 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
     "revision": "312e6420c78bbbfe6769a2dfc1b9bc49"
   }, {
     "url": "/rouse-greek-boy-pwa/",
-    "revision": "6295e8ad7e7d1fa18cd6f00e6ba3b473"
+    "revision": "fedd3e1b236a91be3e642938c01bc8b7"
   }, {
     "url": "lgpsi-001",
     "revision": "7bd01889f7eda5e2f7979dd5a5a803ef"
