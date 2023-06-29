@@ -9,4 +9,4 @@ title: "About, source, and licensing information"
 - [On the Incarnation](https://github.com/fhardison/on-the-incarnaton) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 - [Lingua Graeca Per Se Illustrata](https://seumasjeltzz.github.io/LinguaeGraecaePerSeIllustrata/) by Seumas Macdonald licensed under a CC BY SA licence](https://creativecommons.org/licenses/by-sa/4.0/). 
 - Lysias 24 from [Perseus](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0153:speech%3D24) and released under a [CC BY-SA](http://creativecommons.org/licenses/by-sa/3.0/us/) 
-
+- Didache: Tauber, James, & Macdonald, Seumas. (2019). Open Apostolic Fathers (Version 1.0). Zenodo. http://doi.org/10.5281/zenodo.2555673

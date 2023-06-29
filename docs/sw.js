@@ -85,7 +85,7 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
     "revision": "199b995fd82394a7a5df0a32845db32c"
   }, {
     "url": "about",
-    "revision": "b756175cc10eea1eb975c1c0e83f88d8"
+    "revision": "4aa09d73710a82538239095e7993ca9e"
   }, {
     "url": "astro/011-didache.3b46af41.css",
     "revision": null
