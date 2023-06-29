@@ -78,13 +78,16 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
+    "url": "011-didache",
+    "revision": "c83fd979bffafa828c8ffad0d00d132c"
+  }, {
     "url": "1k-interlinear",
-    "revision": "0bb1b234fea278ecf00ea41430ac0595"
+    "revision": "199b995fd82394a7a5df0a32845db32c"
   }, {
     "url": "about",
-    "revision": "274d16c1123a801cdf02a04bea6ba150"
+    "revision": "b756175cc10eea1eb975c1c0e83f88d8"
   }, {
-    "url": "astro/1k-interlinear.3b46af41.css",
+    "url": "astro/011-didache.3b46af41.css",
     "revision": null
   }, {
     "url": "astro/hoisted.60dba1fd.js",
@@ -94,34 +97,34 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
     "revision": null
   }, {
     "url": "boy-temple",
-    "revision": "5052e930bbdc97acfa6d5063c3b569c6"
+    "revision": "44e31d2930840686841f2f3db962bc7e"
   }, {
     "url": "default.css",
     "revision": "8180bdd118a9e9b5e75a009dd152b3cc"
   }, {
     "url": "drawing.svg",
-    "revision": "1447a5f19c1524daddc774789e4fb2ec"
+    "revision": "8f84a06cf8f000b077f96247420e73da"
   }, {
     "url": "favicon.svg",
     "revision": "8c13f40658976ea1dfb8ba37a8be0e8d"
   }, {
     "url": "incarnation-interlinear",
-    "revision": "312e6420c78bbbfe6769a2dfc1b9bc49"
+    "revision": "1ca7d9c6c85667a9e8a4896dde99d0e2"
   }, {
     "url": "/rouse-greek-boy-pwa/",
-    "revision": "fedd3e1b236a91be3e642938c01bc8b7"
+    "revision": "1bfa4067f44bd5b9183288f0ee2996d8"
   }, {
     "url": "lgpsi-001",
-    "revision": "7bd01889f7eda5e2f7979dd5a5a803ef"
+    "revision": "f9bfe52f00678113b9c4366c7215b337"
   }, {
     "url": "lgpsi-002",
-    "revision": "e05582a20cf21e2298359814d50feea5"
+    "revision": "0a844290f13b2819ecf043fcc124e889"
   }, {
     "url": "lgpsi-003",
-    "revision": "21a518d202ccbcdb905776090afc8d1d"
+    "revision": "6b9737110581ba44cb473cd821ff31bd"
   }, {
     "url": "lysias-24",
-    "revision": "60cd877a39b664b5e2ce8b485bd7c79c"
+    "revision": "4f1e08e2377b890641daa612ddc8bbd5"
   }, {
     "url": "pwa-192-192.png",
     "revision": "50e920258500ecf9e66fcf220ba818f1"
@@ -133,7 +136,7 @@ define(['./workbox-148cb7e5'], (function (workbox) { 'use strict';
     "revision": "875b58700297f8f71df54a9efb030d9c"
   }, {
     "url": "rouse_corrected_text",
-    "revision": "58770d26fefabd1ea9966584908166c2"
+    "revision": "7a31bd506b6d1a040274c2349288fc54"
   }, {
     "url": "favicon.svg",
     "revision": "8c13f40658976ea1dfb8ba37a8be0e8d"

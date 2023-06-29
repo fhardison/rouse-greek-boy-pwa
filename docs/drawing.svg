@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="512"
+   height="512"
+   viewBox="0 0 135.46667 135.46667"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
@@ -25,21 +25,21 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.2102413"
-     inkscape:cx="-61.833711"
-     inkscape:cy="561.25984"
+     inkscape:cx="-518.45189"
+     inkscape:cy="561.25985"
      inkscape:window-width="1309"
      inkscape:window-height="456"
      inkscape:window-x="692"
-     inkscape:window-y="298"
+     inkscape:window-y="270"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
      id="defs2">
     <rect
        x="137.93674"
-       y="332.95075"
-       width="485.15681"
-       height="418.56666"
+       y="332.95074"
+       width="485.1568"
+       height="418.56665"
        id="rect186" />
   </defs>
   <g
@@ -48,11 +48,11 @@
      id="layer1">
     <text
        xml:space="preserve"
-       transform="scale(0.26458333)"
+       transform="matrix(0.26458333,0,0,0.26458333,5.0338984,-36.495763)"
        id="text184"
        style="font-size:101.333px;font-family:'Cormorant Garamond';-inkscape-font-specification:'Cormorant Garamond, Normal';white-space:pre;shape-inside:url(#rect186);fill:#a3a3a3;stroke:#a3a3a3;stroke-width:7.55906"><tspan
          x="137.9375"
          y="422.93546"
-         id="tspan264">GB</tspan></text>
+         id="tspan399">LEX</tspan></text>
   </g>
 </svg>
